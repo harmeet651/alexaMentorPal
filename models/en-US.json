@@ -1,13 +1,19 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "audio stream starter",
+      "invocationName": "audioplayer",
       "intents": [{
           "name": "PlayStream",
           "samples": [
             "play",
             "start",
             "play stream"
+          ]
+        },
+        {
+          "name": "MentorPalIntent",
+          "samples": [
+            "MentorPal"
           ]
         },
         {
