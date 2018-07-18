@@ -26,8 +26,10 @@
           "name": "IntentToCallQues",
           "samples": [
             
-            " IntentToCallQues question is this {NUMBER}",
-            " IntentToCallQues question is {NUMBER}"
+            " question is this {NUMBER}",
+            " question is {NUMBER}",
+            " question one",
+            " question number"
           ],
           "slots": [
             {
@@ -35,6 +37,18 @@
               "type": "AMAZON.NUMBER"
             }
             
+          ]
+        },
+        {
+          "name": "Handler",
+          "samples": [
+            "khatm session",
+            "jide kamar te tatto he kamal",
+            "oo kudi kon nachdi",
+            "harmeet",
+            "name",
+            "noun",
+            "bla bla bla"
           ]
         },
         {

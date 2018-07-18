@@ -32,16 +32,19 @@ var handlers = {
   },
   'IntentToCallQues' : function() {
     var start = this.event.request.intent.slots["NUMBER"].value;
-      //this.emit(':ask', start);
-      if(!start)
-      {
-        //this.emit(':ask', 'hello aaaaaaaaaa');
-        this.emit('Unhandled');
-      }
-      else
-      {
-        this.emit('PlayStream');
-      }
+      this.emit(':tell', start);
+      // if(!start)
+      // {
+      //   //this.emit(':ask', 'hello aaaaaaaaaa');
+      //   this.emit('Unhandled');
+      // }
+      // else
+      // {
+      //   this.emit('PlayStream');
+      // }
+  },
+  'saumyaHandler' : function() {
+    this.emit(':tell','khatam')
   },
   //'MentorPalIntent': function () {
 
