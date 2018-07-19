@@ -31,8 +31,8 @@ var handlers = {
     this.emit(':ask', 'Hello World!');
   },
   'IntentToCallQues' : function() {
-    var start = this.event.request.intent.slots["NUMBER"].value;
-      this.emit(':tell', start);
+    //var start = this.event.request.intent.slots["NUMBER"].value;
+      //this.emit(':tell', start);
       // if(!start)
       // {
       //   //this.emit(':ask', 'hello aaaaaaaaaa');
@@ -40,10 +40,11 @@ var handlers = {
       // }
       // else
       // {
-      //   this.emit('PlayStream');
+         this.emit(':ask', 'oo hello');
+         this.emit('PlayStream');
       // }
   },
-  'saumyaHandler' : function() {
+  'Handler' : function() {
     this.emit(':tell','khatam')
   },
   //'MentorPalIntent': function () {
