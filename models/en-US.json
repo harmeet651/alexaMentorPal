@@ -1,0 +1,94 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "audioplayer",
+      "intents": [{
+          "name": "PlayStream",
+          "samples": [
+            "play",
+            "start",
+            "play stream"
+          ]
+        },
+        {
+          "name": "MentorPalIntent",
+          "samples": [
+            "MentorPal"
+          ],
+          "slots": [
+            {
+              "name": "MentorPal",
+              "type": "AMAZON.EducationalOrganization"
+            }
+          ]
+        },
+        {
+          "name": "IntentToCallQues",
+          "samples": [
+            
+            " question is this {NUMBER}",
+            " question is {NUMBER}",
+            " question one",
+            " question number"
+          ],
+          "slots": [
+            {
+              "name": "NUMBER",
+              "type": "AMAZON.NUMBER"
+            }
+            
+          ]
+        },
+        {
+          "name": "Handler",
+          "samples": [
+            "khatm session",
+            "jide kamar te tatto he kamal",
+            "oo kudi kon nachdi",
+            "harmeet",
+            "name",
+            "noun",
+            "bla bla bla"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Yes",
+            "Yeah"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "No",
+            "Nope"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.StartOverIntent"
+        }
+      ]
+    }
+  }
+}
